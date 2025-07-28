@@ -1,19 +1,75 @@
 <!DOCTYPE html>
 
+<html lang="en">
+
 <head>
     <meta charset="utf-8"/>
     <title>Calimiro AI</title>
-    <link rel="stylesheet" href="style/bootstrap.css"/>
+    <link rel="stylesheet" href="styles/bootstrap.css"/>
+    <link rel="stylesheet" href="styles/custom.css"/>
+    <script type="text/javascript" src="scripts/index.js"></script>
 </head>
 
 <body>
     <div class="container">
         <h1>Calimiro AI</h1>
+        
 
-        <h2>A powerful smart mirror to film and track your workout session with AI.</h2>
+        <h2>A powerful smart mirror to film and track your workout sessions with AI.</h2>
+        
         <p> Built in Munich, Germany, by Lennard Gross, Philip Synowiec und Younes Bendimerad at <a href="https://www.check24.de">CHECK24</a></p>
+        
+        <button class="btn btn-primary" onclick="goToGallery()">Go to the gallery</button>
 
-        <button class="btn btn-warning" onclick="window.location.href='https://www.github.com/calimiro-ai'">GitHub</button>
+        <br><br>
+        
+        <h3>Our goal</h3>
+        
+
+        <p>
+        Calimiro AI develops a smart mirror, which is able to track your workout session and to recognize the workout exercise you're doing.
+        It can also count repetitions, and so establish reliable statistics about your global performance.
+        We want to make fitness and calisthenics easier for people who are starting in this discipline, without
+        forcing them to be in the gym or to have a coach.
+        </p>
+
+        <br>
+
+        <h3>Project overview</h3>
+        
+        <p>
+        A Calimiro consists of several components. A Raspberry Pi 4+, a transparent mirror 
+        with integrated display, and an ESP Camera. A webserver permits a WiFi connection between the 
+        Raspberry Pi and the Camera to establish an HTTP (or on newer versions RTSP) live video stream. 
+        The core of Calimiro, Calitracker, runs on the Raspberry Pi and analyzes your position with several 
+        pre-trained AI models. Another server runs on the Raspberry Pi to permit communication with the 
+        User Interface, built with MagicMirror.
+
+        <br><br>Future updates<br>
+        &bull; Websockets for a better architecture<br>
+        &bull; Built-in computation of calories<br>
+        &bull; Pose & gesture correction<br>
+        &bull; Workout Session Program generation with AI<br>
+        &bull; 3D pose & gesture models on the mirror<br>
+        &bull; Interactive plots of workout data<br>
+        </p>
+
+        <br>
+
+        <h3>Getting started</h3>
+        
+        <p>
+        The full source code of Calimiro is available on GitHub.
+        </p>
+
+        <button class="btn btn-primary" onclick="goToDocumentation()">Go to the documentation</button>
+        
+        <br>
+        <br>
+
+        <p>Copyright &copy; Lennard Gross, Philip Synowiec and Younes Bendimerad, 2025. All rights reserved.</p>
 
     </div>
 </body>
+
+</html>
