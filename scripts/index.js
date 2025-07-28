@@ -2,7 +2,7 @@ var galleryImageIndex = 0;
 const numImages = 0;
 
 function goToGallery() {
-    window.location.href = '/gallery.html';
+    window.location.href = 'https://www.calimiro-ai.github.io/gallery.html';
     galleryImageIndex = 0;
 }
 
