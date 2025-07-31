@@ -10,4 +10,6 @@ img {
     margin: 25px;
     border: 1px solid white;
     border-radius: 5px;
+    width: 300px;
+    height: auto;
 }
