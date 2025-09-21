@@ -6,11 +6,20 @@ p, h1, h2, h3, button {
     margin: 10px;
 }
 
-img {
+.no-transform {
     margin: 25px;
     border: 1px solid white;
     border-radius: 5px;
     width: 45%;
+    height: auto;
+    display: inline;
+}
+
+.transform {
+    margin: 5px;
+    border: 1 px solid white;
+    border-radius: 5px;
+    width: 30%;
     height: auto;
     display: inline;
 }
